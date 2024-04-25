@@ -1,0 +1,17 @@
+@charset "utf-8";
+body {
+    margin: 0;
+    height: 100vh;
+    background-image: url("SelfPortraitOne.png"); 
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#clickable-area {
+    width: 400px;
+    height: 400px;
+    background: rgba(0, 0, 0, 0); /* Transparent */
+    cursor: pointer;
+}
